@@ -67,7 +67,7 @@
   }
 
   .particles {
-    background-image: url('../static/imgs/background1.jpg');
+    background-color: black;
     background-size: cover;
     position: absolute;
     top: 0;
