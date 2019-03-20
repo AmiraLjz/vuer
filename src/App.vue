@@ -62,10 +62,12 @@
 
   h2 {
     color: springgreen;
+    margin: 0 0 30px 650px;
+    position: relative;
   }
 
   .particles {
-
+    background-image: url('../static/imgs/background1.jpg');
     background-size: cover;
     position: absolute;
     top: 0;
@@ -75,8 +77,11 @@
   }
 
   .panel {
+    margin: 0 0 0 200px;
     border: 0;
     background: #f7ecb5;
+    position: absolute;
+    z-index: 3;
   }
 
  /* body {
