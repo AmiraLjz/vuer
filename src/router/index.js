@@ -4,6 +4,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+
 import Public from '../pages/Public.vue'
 import List from '../pages/List.vue'
 import MessageOne from '../pages/MessageOne.vue'

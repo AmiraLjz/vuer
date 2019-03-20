@@ -1,3 +1,5 @@
+const webpack = require("webpack");
+
 'use strict'
 const path = require('path')
 const utils = require('./utils')
@@ -20,6 +22,14 @@ const createLintingRule = () => ({
 })
 
 module.exports = {
+  plugins: [
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery',
+      Popper: ['popper.js', 'default'],
+    })
+  ],
+
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js'

@@ -47,7 +47,6 @@
         </div>
       </div>
     </div>
-
   </div>
 
 </template>
@@ -66,7 +65,7 @@
   }
 
   .particles {
-    background-image: url(../static/imgs/background1.jpg);
+
     background-size: cover;
     position: absolute;
     top: 0;
