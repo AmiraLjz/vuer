@@ -1,8 +1,9 @@
 <template>
-    <div>
-      <h3>实际案例（demo）</h3>
-
-    </div>
+  <div>
+    <h3>实际案例（demo）</h3>
+    <a href="https://amiraljz.github.io/xz/tuixiangzi.html">jQ简单推箱子游戏</a><br>
+    <a href="https://amiraljz.github.io/roll/">侧边栏广告切换的简易小ui</a>
+  </div>
 </template>
 
 <script>
@@ -14,5 +15,8 @@
 </script>
 
 <style scoped>
-
+  a {
+    display: block;
+    margin-bottom: 5px;
+  }
 </style>
